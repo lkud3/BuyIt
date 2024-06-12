@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BuyIt_Project</string>
+    <string name="brandName"><u>BuyIt</u></string>
+    <string name="brandSlogan">You <b>need</b> it? We <b>find</b> it!</string>
+</resources>

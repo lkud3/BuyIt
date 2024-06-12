@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StockListActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#E0E0E0"
+        android:id="@+id/headerBox"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="BuyIt"
+            android:letterSpacing="0.05"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:elevation="4dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cartImage"
+            android:layout_marginTop="15dp"
+            android:layout_width="47dp"
+            android:layout_height="36dp"
+            android:src="@drawable/cart"
+            app:shapeAppearance="@style/Circle" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/accountImage"
+            android:layout_marginTop="15dp"
+            android:layout_width="47dp"
+            android:layout_height="36dp"
+            android:layout_gravity="end"
+            android:src="@drawable/login"
+            app:shapeAppearance="@style/Circle" />
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        app:layout_constraintTop_toBottomOf="@+id/headerBox"
+        android:queryHint="Search..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_background"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/locationSet"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Items in your area"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clickable_text_background"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/blue" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        app:layout_constraintTop_toBottomOf="@+id/locationSet"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/empty_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No items to display"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
