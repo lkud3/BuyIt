@@ -1,0 +1,106 @@
+{
+  "Stock": {
+    "-item10id-": {
+      "description": "The cover is made of artificial leather with a brand monogram applied to a plastic base. These materials perfectly protect the gadget from damage inevitable during daily use, and the silicone bumper provides comfort removal of the device.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/phonecase.jpg?alt=media&token=e795afd5-f28d-4c3a-9e1e-426aeaf6879a",
+      "location": "Moscow",
+      "name": "Phone case",
+      "price": 22.3
+    },
+    "-item1id-": {
+      "description": "Plate bottle for snacks and delicacies. A beautiful shaped menageria in the form of a bottle of wine will decorate any holiday or feast and will surprise your guests.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/platebottle.jpg?alt=media&token=552959fd-74b1-4085-9a1f-ccc20ed1e3d8",
+      "location": "Mountain View",
+      "name": "Plate Bottle",
+      "price": 20.99
+    },
+    "-item2id-": {
+      "description": "An art set for drawing a painting by numbers on canvas 40x50 on the Paintboy stretcher. Canvas for Painting by numbers on canvas 40 50 is made of cotton, the subframe is made of natural wood.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/paint.jpg?alt=media&token=997adb05-8e00-47fd-82f4-aa731fbe11ad",
+      "location": "Thessaloniki",
+      "name": "Modern Art",
+      "price": 15.99
+    },
+    "-item3id-": {
+      "description": "CC cream Absolute perfection SPF 20+, 30 ml. - weightless foundation with fluid texture and medium coverage - 3 out of 5, which masks redness, evens out skin tone and gives it a natural radiance.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/cream.jpg?alt=media&token=c5115243-0782-4930-9470-1701ff56fa2f",
+      "location": "Mountain View",
+      "name": "Skin Care Cream",
+      "price": 20.99
+    },
+    "-item4id-": {
+      "description": "Longsleeve is a stylish and comfortable women's jacket, ideal for large-sized clothing. Long drain is a great choice for women who appreciate style and comfort. Made of cotton, it provides pleasant skin sensations and good breathability.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/longsleeve.jpg?alt=media&token=9ad6c764-3379-4985-a39a-b638da593052",
+      "location": "Moscow",
+      "name": "Longsleeve",
+      "price": 10.5
+    },
+    "-item5id-": {
+      "description": "Electric diffuser Lantern is distinguished by its unique elegant design and high quality of aroma. A stylish accessory will complement any interior. This sophisticated model will allow you to enjoy your favourite fragrances anywhere.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/lantern.jpg?alt=media&token=0a34f448-0f7f-4974-8536-4f6357047eac",
+      "location": "Athens",
+      "name": "Lantern",
+      "price": 40.5
+    },
+    "-item6id-": {
+      "description": "Parchment paper with newspaper print for those who like to create a cosy atmosphere at home with a beautiful table setting. The paper is perfect for spectacular serving of dishes directly from the oven.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/parchmentpaper.jpg?alt=media&token=13057601-45b8-4b60-bc2f-a1322ecb06f7",
+      "location": "Mountain View",
+      "name": "Parchment paper",
+      "price": 10
+    },
+    "-item7id-": {
+      "description": "Stylish T-shirt with Armenian phrases/words/expressions. Care recommendations: turn inside out, delicate wash at a temperature not exceeding 30 degrees, without bleach. You can't iron on the print.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/tshirt.jpg?alt=media&token=60327944-623c-42c4-a7a3-cc8b40e91d05",
+      "location": "Thessaloniki",
+      "name": "T-shirt",
+      "price": 15.2
+    },
+    "-item8id-": {
+      "description": "Book roombox is a prefabricated model. Roombox is a great gift for the new year or birthday. Decorative stand for books Rolife (Robotime) will not only give you the pleasure of creativity, but can also be used as a gift for lovers Harry Potter.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/bookroombox.jpg?alt=media&token=477df76e-38a2-41d7-a13e-2eae2db987f8",
+      "location": "Athens",
+      "name": "Book roombox",
+      "price": 22.3
+    },
+    "-item9id-": {
+      "description": "2 premium bed linen, high density percale fabric, 50x70 Oxford pillowcases 2 pcs., sheet 240x220; duvet cover 215x175 cm.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/badlinen.jpg?alt=media&token=b23c1cc1-0d82-4a3d-a025-164a2f8a6132",
+      "location": "Mountain View",
+      "name": "Bed linen",
+      "price": 30.6
+    }
+  },
+  "Users": {
+    "-Nzme0iIPzyYX_1d41sF": {
+      "favorites": [
+        "-item7id-"
+      ],
+      "friends": [
+        "user1id"
+      ],
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/login.png?alt=media&token=626c4fef-e45e-46b7-b847-c4a7b00cb044",
+      "password": "123",
+      "username": "admin"
+    },
+    "user1id": {
+      "favorites": [
+        "-item3id-"
+      ],
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/login.png?alt=media&token=626c4fef-e45e-46b7-b847-c4a7b00cb044",
+      "password": "123",
+      "username": "iosif"
+    },
+    "user2id": {
+      "favorites": [
+        "-item7id-"
+      ],
+      "friends": [
+        "-Nzme0iIPzyYX_1d41sF"
+      ],
+      "image": "https://firebasestorage.googleapis.com/v0/b/cs300-buyit.appspot.com/o/photodaniil.jpg?alt=media&token=2921fd1a-8ffe-4db6-940d-d733da0dd7be",
+      "password": "123",
+      "username": "daniel"
+    }
+  }
+}
